@@ -25,7 +25,7 @@
 // }
 // sum(obj)
 // obj.id
-// console.log(obj\]
+// console.log(obj);
 // ----------------------------------------------------------------------------------------
 
 // function cal(num1,num2){
@@ -40,15 +40,15 @@
 // console.log(a);
 
 // -----------------------------------------------------------
-// let obj={
-//     a:10,
-//     b:40,
-//     sum:function(){
-//         console.log(this,"idhr");
-//         return this.a+this.b
-//     }
-// }
-// console.log(obj.sum());
+let obj={
+    a:10,
+    b:40,
+    sum:function(){
+        console.log(this,"idhr");
+        return this.a+this.b
+    }
+}
+console.log(obj.sum());
 // -------------------------------------------------------------------------------
 // let arr=[1,2,3,4,45,56,'hello']
 // console.log('helloo');

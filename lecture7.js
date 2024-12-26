@@ -9,17 +9,32 @@
 //     let a=20
 // }
 // console.log(a);
-
+// ----higher order function-ye function jo apne argument kisi or function ko contain kre---
+function outer(){
+    console.log('outer');
+    function inner(){
+        console.log('inner');
+    }
+    return inner
+}
+let a=outer();
+a()
+// console.log(a);
 // ------call back function------------
 // -------here define inner in outer---
-// function outer(a){
+// --agr a ko outer k andr console krte h to wo inner ki body dega----
+// function outer(){
 //     console.log('hey');
-//     a();
+//     // a();
+//     inner();
 // }
 // function inner(){
 //     console.log('inner');
 // }
 // outer(inner);
+// ---------------------------------------------------------------
+// ----higher order function-----------
+
 
 // -----------synchronous and asynchronous----
 // --synchronous-----js is a language which run line by line---
@@ -36,9 +51,9 @@
 // },2000)
 // console.log('three');
 // ---interval m jitna tym diya ho uske baad wo repeated chlta rhegaaa----
-let id=setInterval(()=>{
-    console.log('hehe');
-},2000)
+// let id=setInterval(()=>{
+//     console.log('hehe');
+// },2000)
 // clearInterval((id)=>{
 //     for(let i=0; i<11; i++){                                                                                                                                                                            
 //         console.log(id);

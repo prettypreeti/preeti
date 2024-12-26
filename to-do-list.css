@@ -1,0 +1,23 @@
+div{
+    height: 400px;
+    width: 400px;
+    background-color: grey;
+    border-radius: 5px;
+    border: solid black 2px;
+    box-shadow: 10px 10px 10px;
+    align-items: center;
+}
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+button{
+    height: 30px;
+    width: 60px;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+.ul{
+    font-size: 50px;
+}

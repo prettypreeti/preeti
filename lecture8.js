@@ -110,7 +110,7 @@ let step4 = function(){
 // An async function is defined using the async keyword before the function declaration.
 // When you mark a function as async, it always returns a promise. 
     async function magic(){
-        let data = await step1()
+        let data = await step1() //await is used to wait the step2
         console.log(data);
         let data1= await step2()
         console.log(data1);
